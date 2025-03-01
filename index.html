@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Text:ital@0;1&family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Manrope:wght@200..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Quicksand:wght@300..700&family=Sora:wght@100..800&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <title>Document</title>
+</head>
+<body class="bg-[#3560d621] ">
+    
+    <section class=" w-5/6 mx-auto  mt-5">
+      
+        <nav>
+            <div class="flex justify-between h-20 bg-white rounded-lg">
+                <div class="flex items-center ml-4">
+                    <img src="./assets/logo.png" alt="" class="h-11">
+                    <h3 class="text-3xl ml-2">Dev <span class="font-bold">Board</span></h3>
+                </div>
+                <div class="flex items-center">
+                    <div class="flex items-center mr-9 bg-[#F4F7FF] w-20 justify-center rounded-full">
+                        <img src="./assets/checkbox.png" alt="" class="h-5 mr-3">
+                        <h3 class="text-2xl font-bold">23</h3>
+                    </div>
+                    <div class="bg-[#F4F7FF] mr-3 h-8 w-8 flex items-center justify-center rounded-full">
+                        <img src="./assets/theme-btn.png" alt="" class="h-5" >
+                    </div>
+                </div>
+            </div>
+        </nav>
+
+       <section class="flex ">
+        <!-- head -->
+        <div class="bg-white p-1 mt-6 rounded-lg">
+             <div class="grid grid-cols-4 mt-6 gap-8">
+                <!-- task Assigned -->
+                <div class="bg-[#F4F7FF] flex items-center h-32 rounded-lg ml-7">
+                    <div class="bg-white h-16 w-16 flex items-center justify-center rounded-full mr-10 ml-10"><img src="./assets/checkbox.png" alt=""></div>
+                    <div class="mr-3">
+                        <h4 class="text-xs font-medium">Task Assigned</h4>
+                        <h5 class="text-3xl font-bold">05</h5>
+                    </div>
+                    
+                </div>
+                <!-- New Today -->
+                <div class="bg-gradient-to-r from-[#3752FD] via-[#6C7FFA] to-[#9BA8F8]  h-32 rounded-lg col-start-2 col-span-2 flex items-center">
+                    <img src="./assets/board.png" alt="" class="h-20 ml-10">
+                    <h4 class="text-2xl font-medium text-white">Discover Something <br> New Today!</h4>
+                </div>
+                <!-- date -->
+                <div class="bg-[#F4F7FF] flex items-center h-32 rounded-lg mr-7">
+                    <div class="bg-white h-16 w-16 flex items-center justify-center rounded-full mr-10 ml-10"><img src="./assets/calender.png" alt=""></div>
+                    <div class="mr-3">
+                        <h4 class="text-xl font-normal">Wed ,</h4>
+                        <h5 class="text-3xl font-bold">Jul 28 2025 </h5>
+                    </div>
+                    
+                </div>
+             </div>
+         <!-- body -->
+          <hr class="border-dashed mt-9 mb-6">
+
+
+          <div class="grid grid-cols-3 gap-9 mx-6 mb-6">
+            <!-- card-1 -->
+            <div class="bg-[#F4F7FF] rounded-lg">
+                <div class="p-6"> 
+                    <div>
+                         <button class="bg-white h-10 w-28 rounded-lg mb-4 text-xs font-normal">ShopEase</button>
+                         <h4 class="text-2xl font-medium mb-4">Fix Mobile Button Issue </h4>
+                         <p class="bg-white h-24 truncate rounded-lg p-5 mb-4">Debug using Chrome <br> DevTools, check for overlapping elements, and ensure onClick works properly</p>
+                    </div>  
+                
+                <hr class="border-dashed mb-3">
+                   <div class="flex items-center justify-between ">
+                       <div>
+                             <h3 class="text-xs font-normal">Deadline</h3>
+                             <p class="text-xl font-medium">21 March 2025</p>
+                       </div>
+                             <button class="bg-[#3752FD] w-28 h-8 rounded-lg text-white">Completed</button>
+
+                     </div>
+               </div>
+            </div> 
+            <!--card-2  -->
+            <div class="bg-[#F4F7FF] rounded-lg">
+                <div class="p-6"> 
+                    <div>
+                         <button class="bg-white h-10 w-28 rounded-lg mb-4 text-xs font-normal">CloudSync</button>
+                         <h4 class="text-2xl font-medium mb-4">Add Dark Mode </h4>
+                         <p class="bg-white h-24 truncate rounded-lg p-5 mb-4">Debug using Chrome <br> DevTools, check for overlapping elements, and ensure onClick works properly</p>
+                    </div>  
+                
+                <hr class="border-dashed mb-3">
+                   <div class="flex items-center justify-between ">
+                       <div>
+                             <h3 class="text-xs font-normal">Deadline</h3>
+                             <p class="text-xl font-medium">21 March 2025</p>
+                       </div>
+                             <button class="bg-[#3752FD] w-28 h-8 rounded-lg text-white">Completed</button>
+
+                     </div>
+               </div>
+            </div>  
+               <!-- card-3 -->
+               <div class="bg-[#F4F7FF] rounded-lg">
+                <div class="p-6"> 
+                    <div>
+                         <button class="bg-white h-10 w-28 rounded-lg mb-4 text-xs font-normal">SwiftPay</button>
+                         <h4 class="text-2xl font-medium mb-4">Optimize  Home page </h4>
+                         <p class="bg-white h-24 truncate rounded-lg p-5 mb-4">Debug using Chrome <br> DevTools, check for overlapping elements, and ensure onClick works properly</p>
+                    </div>  
+                
+                <hr class="border-dashed mb-3">
+                   <div class="flex items-center justify-between ">
+                       <div>
+                             <h3 class="text-xs font-normal">Deadline</h3>
+                             <p class="text-xl font-medium">21 March 2025</p>
+                       </div>
+                             <button class="bg-[#3752FD] w-28 h-8 rounded-lg text-white">Completed</button>
+
+                     </div>
+               </div>
+            </div> 
+                <!--card-4  -->
+                <div class="bg-[#F4F7FF] rounded-lg">
+                    <div class="p-6"> 
+                        <div>
+                             <button class="bg-white h-10 w-28 rounded-lg mb-4 text-xs font-normal">Meta</button>
+                             <h4 class="text-2xl font-medium mb-4">Add new emoji 🤲 </h4>
+                             <p class="bg-white h-24 truncate rounded-lg p-5 mb-4">Debug using Chrome <br> DevTools, check for overlapping elements, and ensure onClick works properly</p>
+                        </div>  
+                    
+                    <hr class="border-dashed mb-3">
+                       <div class="flex items-center justify-between ">
+                           <div>
+                                 <h3 class="text-xs font-normal">Deadline</h3>
+                                 <p class="text-xl font-medium">21 March 2025</p>
+                           </div>
+                                 <button class="bg-[#3752FD] w-28 h-8 rounded-lg text-white">Completed</button>
+    
+                         </div>
+                   </div>
+                </div> 
+                 <!--card-5  -->
+                 <div class="bg-[#F4F7FF] rounded-lg">
+                    <div class="p-6"> 
+                        <div>
+                             <button class="bg-white h-10 w-28 rounded-lg mb-4 text-xs font-normal">Google LLC</button>
+                             <h4 class="text-2xl font-medium mb-4">Integrate OpenAI API  </h4>
+                             <p class="bg-white h-24 truncate rounded-lg p-5 mb-4">Debug using Chrome <br> DevTools, check for overlapping elements, and ensure onClick works properly</p>
+                        </div>  
+                    
+                    <hr class="border-dashed mb-3">
+                       <div class="flex items-center justify-between ">
+                           <div>
+                                 <h3 class="text-xs font-normal">Deadline</h3>
+                                 <p class="text-xl font-medium">21 March 2025</p>
+                           </div>
+                                 <button class="bg-[#3752FD] w-28 h-8 rounded-lg text-white">Completed</button>
+    
+                         </div>
+                   </div>
+                </div>
+                     <!--card-6  -->
+                     <div class="bg-[#F4F7FF] rounded-lg">
+                        <div class="p-6"> 
+                            <div>
+                                 <button class="bg-white h-10 w-28 rounded-lg mb-4 text-xs font-normal">Glassdoar</button>
+                                 <h4 class="text-2xl font-medium mb-4">Improve Job searching  </h4>
+                                 <p class="bg-white h-24 truncate rounded-lg p-5 mb-4">Debug using Chrome <br> DevTools, check for overlapping elements, and ensure onClick works properly</p>
+                            </div>  
+                        
+                        <hr class="border-dashed mb-3">
+                           <div class="flex items-center justify-between ">
+                               <div>
+                                     <h3 class="text-xs font-normal">Deadline</h3>
+                                     <p class="text-xl font-medium">21 March 2025</p>
+                               </div>
+                                     <button class="bg-[#3752FD] w-28 h-8 rounded-lg text-white">Completed</button>
+        
+                             </div>
+                       </div>
+                    </div>     
+             
+
+          </div>
+
+
+        </div>
+
+      <!-- msg -->
+        <div class="bg-white p-1 mt-6 rounded-lg ml-6 w-2/5">
+            <div class="flex items-center justify-center">
+                <img src="./assets/activity.png" alt="">
+                <h5 class="text-xl font-medium ml-4">Activity Log</h5>
+            </div>
+            <div class="flex justify-center">
+                <button class="bg-[#3752FD] w-32 h-8 rounded-lg text-white mt-4">Clear History</button>
+            </div>
+            
+            <hr class="border-dashed mt-7 mb-6">
+
+            <div class="w-80 mx-auto">
+                <p class=" bg-[#F4F7FF] rounded-lg p-4">
+                    You have Complete The Task Add Dark Mode at 12:48:15 PM
+                </p>
+                <p class=" bg-[#F4F7FF] rounded-lg p-4 mt-4">
+                    You have Complete The Task Add Dark Mode at 12:48:15 PM
+                </p>
+            </div>
+ 
+        </div>
+
+       
+
+
+       </section> 
+            
+
+
+
+
+
+
+
+
+    </section>
+</body>
+</html>
