@@ -8,7 +8,7 @@ for(let i =0; i<button.length; i++){
     allButton.addEventListener('click',function(event){
         
     
-      alert("Bord updated Succesfully")
+      alert("Board updated Sucessfully")
       checkbox.innerText=parseInt(checkbox.innerText)+1;
       task.innerText=parseInt(task.innerText)-1;
 
@@ -44,3 +44,7 @@ clear.addEventListener('click',function(event){
  const clear= document.querySelector('.history').innerHTML="";
  
 })
+
+let now =new Date();
+const date=document.getElementById('date');
+date.innerHTML=now.toDateString();
